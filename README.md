@@ -1,6 +1,6 @@
 # Bradamsa
 
-Bradamsa is a [Burp Suite](http://www.portswigger.net/burp/) extension for the [Radamsa](https://code.google.com/p/ouspg/wiki/Radamsa) fuzzer[^1].  Inspired by [burp-radamsa](https://github.com/Raz0r/burp-radamsa), this plugin allows to generate Intruder payloads using Radamsa.
+Bradamsa is a [Burp Suite](http://www.portswigger.net/burp/) extension for [Radamsa](https://code.google.com/p/ouspg/wiki/Radamsa), a well-known fuzzer made by the [Oulu University Secure Programming Group](https://www.ee.oulu.fi/research/ouspg/). Inspired by [burp-radamsa](https://github.com/Raz0r/burp-radamsa), this plugin allows to generate Intruder payloads using Radamsa.
 
 **Mix (B)urp Suite + (Radamsa) and you get crashes!**   
 
@@ -38,6 +38,3 @@ $ curl https://ouspg.googlecode.com/files/radamsa-0.3.tar.gz | tar -zxvf - && cd
 7.  Finish to configure Burp Intruder and start fuzzing  
 
 ![Payload Generator](http://i.imgur.com/POZPRss.png "Payload Generator")
-
-[^1]: Radamsa is made by the [Oulu University Secure Programming Group](https://www.ee.oulu.fi/research/ouspg/) (OUSPG) and released as MIT licensed software. 
-
