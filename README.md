@@ -2,6 +2,8 @@
 
 Bradamsa is a [Burp Suite](http://www.portswigger.net/burp/) extension for [Radamsa](https://code.google.com/p/ouspg/wiki/Radamsa), a well-known fuzzer made by the [Oulu University Secure Programming Group](https://www.ee.oulu.fi/research/ouspg/). Inspired by [burp-radamsa](https://github.com/Raz0r/burp-radamsa), this plugin allows to generate Intruder payloads using Radamsa.
 
+Download the latest release from [HERE](https://github.com/ikkisoft/bradamsa/releases).
+
 **Mix (B)urp Suite + (Radamsa) and you get crashes!**   
 
 ![Bradamsa Tab](http://i.imgur.com/ZdVE9Ow.png "Bradamsa Tab")
