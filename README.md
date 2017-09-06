@@ -8,7 +8,7 @@ Download the latest release from [HERE](https://github.com/ikkisoft/bradamsa/rel
 
 ![Bradamsa Tab](http://i.imgur.com/ZdVE9Ow.png "Bradamsa Tab")
 
-##Features
+## Features
 
 * Java-based plugin using native Burp Suite extension APIs 
 * Intruder payloads generator using Radamsa (sniper attack type only)
@@ -17,7 +17,7 @@ Download the latest release from [HERE](https://github.com/ikkisoft/bradamsa/rel
 
 ![Options validation](http://i.imgur.com/TVvE71Y.png "Options validation")
 
-##How To Use It
+## How To Use It
 
 1.  Install Radamsa from [Hatlp GIT](http://haltp.org/git/radamsa.git) or the official [Google project page ](https://code.google.com/p/ouspg/downloads/list)
 
@@ -35,8 +35,8 @@ $ curl https://ouspg.googlecode.com/files/radamsa-0.3.tar.gz | tar -zxvf - && cd
 2. From the _Extender_ tab in Burp Suite,  add [bradamsa.jar](https://github.com/ikkisoft/bradamsa/releases) 
 3. Open the _Bradamsa_ tab and configure Radamsa. For more details, please refer to the official [Radamsa page](https://code.google.com/p/ouspg/wiki/Radamsa) or type ```$ radamsa --help``` in your terminal
 4.  Send a request to Burp Intruder
-5.  In Payload --> Payload Sets --> Payload type, select "Extension-generated"
-6.  In Payload --> Payload Options --> Select generator, choose "Bradamsa" from the drop down list
+5.  In Payload → Payload Sets → Payload type, select "Extension-generated"
+6.  In Payload → Payload Options → Select generator, choose "Bradamsa" from the drop down list
 7.  Finish to configure Burp Intruder and start fuzzing  
 
 ![Payload Generator](http://i.imgur.com/POZPRss.png "Payload Generator")
